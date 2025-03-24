@@ -1,0 +1,142 @@
+body {
+  background-color: #F8FAFC;
+  font-family: "Montserrat", sans-serif;
+}
+
+span {
+  color: #6F8DD9;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+.navbar-brand {
+  font-size: 32px;
+}
+
+.card-footer {
+  background-color: #1B1B1B;
+}
+
+textarea {
+  resize: none;
+}
+
+.btn {
+  border-style: none;
+  background-color: #6F8DD9;
+  padding: 15px 30px;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+.nav-link {
+  color: black;
+}
+
+.card-body {
+  height: 370px;
+}
+
+.card {
+  border-style: none;
+  box-shadow: 1px 1px 29px -11px rgba(0, 0, 0, 0.75);
+  margin-bottom: 15px;
+}
+
+.reason,
+.speak,
+footer {
+  margin-top: 150px;
+}
+
+.cards {
+  margin-top: 75px;
+}
+
+.main {
+  margin-top: 120px;
+}
+
+.reason img {
+  border-radius: 4%;
+  margin-bottom: 15px;
+}
+
+.card img {
+  padding-bottom: 50px;
+}
+
+.main hr,
+.reason hr,
+.speak hr,
+hr {
+  width: 50px;
+  border-radius: 50px;
+  border: 1px solid #6F8DD9;
+  opacity: 100%;
+}
+
+.speak p {
+  color: black;
+  margin-bottom: 40px;
+}
+
+.phone {
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.main .col-md-7 {
+  animation: slideInFromLeft 1s ease-out;
+}
+
+.cards .card {
+  animation: fadeIn 1s ease-out;
+}
+
+.btn {
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #6F8DD9; 
+}
+.card {
+  background-color: #FFFFFF; 
+  transition: background-color 0.3s ease; 
+}
+
+.card:hover {
+  background-color: #6F8DD9; 
+}
